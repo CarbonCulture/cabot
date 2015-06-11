@@ -153,7 +153,7 @@ server {
   }
 
   # Uncomment line below to force https
-  #return 301 https://\$host\$request_uri;
+  return 301 https://\$host\$request_uri;
 }
 
 # Proxy secure traffic to cabot
