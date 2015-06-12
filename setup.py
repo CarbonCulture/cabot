@@ -15,7 +15,7 @@ setup(
     author_email='info@arachnys.com',
     url='http://cabotapp.com',
     license='MIT',
-    dependency_links = ['http://github.com/CarbonCulture/cabot-alert-slack/tarball/master#egg=cabot_alert_slack==0.5.1'],
+    dependency_links = ['http://github.com/CarbonCulture/cabot-alert-slack/tarball/master#egg=cabot_alert_slack==0.5.2'],
     install_requires=[
         'Django==1.6.8',
         'Markdown==2.5',
@@ -56,7 +56,7 @@ setup(
         'wsgiref==0.1.2',
         'python-dateutil==2.1',
         'django-auth-ldap==1.2.6',
-        'cabot_alert_slack==0.5.1',
+        'cabot_alert_slack==0.5.2',
     ] + plugins,
     packages=find_packages(),
     include_package_data=True,
